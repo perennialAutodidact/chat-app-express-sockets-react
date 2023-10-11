@@ -1,0 +1,22 @@
+{
+  "name": "chat-app-express-sockets-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:perennialAutodidact/chat-app-express-sockets-react.git",
+  "author": "Keegan Good <perennialautodidact@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "socket.io": "^4.7.2",
+    "yup": "^1.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "socket.io-client": "^4.7.2"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
